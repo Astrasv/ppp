@@ -1,1 +1,2 @@
 # PPP
+Parama-Poi-Padi da or Petty Productivity Patrol is a simple CLI system - By dev for devs - which roasts you when you get distracted. This makes you guilt trip instead of blocking webpages (no blocking only roasting)
