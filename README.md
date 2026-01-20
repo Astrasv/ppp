@@ -1,4 +1,18 @@
 # Guilt-3P
+
+
+```text
+
+  ░██████             ░██░██    ░██        ░██████  ░█████████  
+ ░██   ░██               ░██    ░██       ░██   ░██ ░██     ░██ 
+░██        ░██    ░██ ░██░██ ░████████          ░██ ░██     ░██ 
+░██  █████ ░██    ░██ ░██░██    ░██         ░█████  ░█████████  
+░██     ██ ░██    ░██ ░██░██    ░██             ░██ ░██         
+ ░██  ░███ ░██   ░███ ░██░██    ░██       ░██   ░██ ░██         
+  ░█████░█  ░█████░██ ░██░██     ░████     ░██████  ░██   
+
+```
+
 Guilt 3P (is read as Guilt Trip)
 
 The 3Ps stands for **Petty Productivity Patrol** or an old tamil meme **Parama-Poi-Padi da** Guilt-3P is a simple CLI system - By dev for devs - which roasts you when you get distracted. This makes you guilt trip instead of blocking webpages (no blocking only roasting)
