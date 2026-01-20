@@ -111,3 +111,31 @@ Example `config.json`:
 
 **Git😉 back to work.** Adios!!!
 
+---
+
+## 🐳 Docker Support
+
+You can run Guilt-3P using Docker, but be aware of some limitations due to the containerized environment (headless nature).
+
+### Limitations
+- **Window Tracking**: By default, Docker containers cannot see your host's active windows. The "distraction detection" based on window titles might not work without advanced configuration (mounting X11 sockets, etc.).
+- **Audio**: Text-to-speech audio might require passing audio devices to the container (`--device /dev/snd`).
+- **Window Switching**: The feature to force-switch windows (bring VS Code to front) will not work from inside a standard container.
+
+### Building the Image
+```bash
+docker build -t guilt-3p .
+```
+
+### Running the Container
+To run the application (server and basic logic):
+```bash
+docker run -p 5000:5000 --name guilt-3p-app guilt-3p
+```
+
+### Running Helper Commands
+To run setup commands or initialize config:
+```bash
+docker run --rm guilt-3p setup-extension
+docker run --rm -v $(pwd):/app/config guilt-3p init-config
+```
