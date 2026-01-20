@@ -31,7 +31,7 @@ def handle_user_input():
                     
                     if 1 <= mins <= 10:
                         # Set the Break Timer
-                        current_state.BREAK_UNTIL_TIMESTAMP = time.time() + (mins * 60) # Fixed * 10 to * 60 (assuming mins) - wait, original was * 10?
+                        current_state.BREAK_UNTIL_TIMESTAMP = time.time() + (mins * 60)
                         current_state.BREAK_WARNING_SENT = False
                         
                         print(f"\nBREAK STARTED: See you in {mins} minutes.")

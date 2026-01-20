@@ -33,11 +33,11 @@ class ConfigManager:
             "general": {
                 "extend_defaults": True
             },
-            "custom_roasts": [],
-            "custom_praises": [],
-            "custom_forbidden": [],
-            "custom_nag_messages": [],
-            "custom_browsers": []
+            "custom_roasts": DEFAULT_ROASTS,
+            "custom_praises": DEFAULT_PRAISES,
+            "custom_forbidden": DEFAULT_FORBIDDEN,
+            "custom_nag_messages": DEFAULT_NAG_MESSAGES,
+            "custom_browsers": DEFAULT_BROWSERS
         }
         try:
             with open(self.config_path, "w", encoding="utf-8") as f:

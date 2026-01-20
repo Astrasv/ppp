@@ -15,7 +15,7 @@ def bring_vscode_to_front():
                 
                 win32gui.SetForegroundWindow(hwnd)
                 
-                print("✨ Teleported you back to work.")
+                # print("✨ Teleported you back to work.")
             except Exception as e:
                 print(f"Failed to move window: {e}")
             

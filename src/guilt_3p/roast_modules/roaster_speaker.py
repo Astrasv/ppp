@@ -30,7 +30,6 @@ def play_audio_and_popup(text, speak_type):
     """
     def _run():
         try:
-            print(f"\nSPEAKING: {text}")
             
             filename = f"temp_speech_{random.randint(1000, 9999)}.mp3"
             tts = gTTS(text=text, lang='en', slow=False)

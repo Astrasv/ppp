@@ -5,7 +5,6 @@ src/guilt_3p/config.py
 src/guilt_3p/get_active_windows.py
 src/guilt_3p/main.py
 src/guilt_3p/state.py
-src/guilt_3p/tui.py
 src/guilt_3p.egg-info/PKG-INFO
 src/guilt_3p.egg-info/SOURCES.txt
 src/guilt_3p.egg-info/dependency_links.txt
